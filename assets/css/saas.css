@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #212121;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  width: 1110px;
+  margin-inline: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+  gap: 48px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.header-icons {
+  display: flex;
+  gap: 40px;
+}
+
+.user-info a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.user-info img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.revenue-tracker-for-creators {
+  margin-top: 88px;
+  display: flex;
+}
+
+.revenue-text {
+  color: #ffffff;
+  max-width: 540px;
+}
+
+.revenue-text h1 {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  margin-top: 52px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+.store-images {
+  display: flex;
+  gap: 27px;
+  margin-top: 29px;
+}
+.revenue-footer {
+  color: #807e7e;
+  padding-top: 80px;
+  padding-bottom: 56px;
+  padding-right: 111px;
+}
+.revenue-footer-logos {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 30%;
+}
+
+.compete-with-friends {
+  color: #ffffff;
+  padding-block: 120px;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.compete-with-friends img {
+  margin-top: 72px;
+}
+
+.compete-with-friends h3,
+.compete-with-friends h5 {
+  max-width: 665px;
+}
+
+.integrations {
+  display: flex;
+  color: #ffffff;
+  margin-top: 120px;
+  margin-bottom: 240px;
+}
+
+.integrations-text {
+  max-width: 538px;
+  margin-top: 89px;
+  margin-bottom: 89px;
+  margin-right: 32px;
+}
+.integrations-text p {
+  margin-top: 24px;
+}
+
+.integrations-text a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: " Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+.integrations-text p {
+  margin-bottom: 40px;
+}
+
+.integrations-text img {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.web-interface {
+  margin-bottom: 240px;
+}
+
+.web-interface h5,
+.web-interface h3 {
+  text-align: center;
+}
+
+.web-interface img {
+  margin-top: 48px;
+}
+
+.pricing {
+  margin-bottom: 240px;
+}
+
+.pricing h5,
+.pricing h3 {
+  text-align: center;
+}
+
+.pricing-cards {
+  display: flex;
+  color: #ffffff;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.pricing-card {
+  padding: 40px;
+  background: #121212;
+}
+
+.pricing-card a,
+.get-started a {
+  max-width: 280px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  background-color: #dc3545;
+  padding-inline: 72px;
+  padding-block: 16px;
+  border-radius: 3px;
+}
+
+.pricing-card h4 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.pricing-card h6 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.pricing-card h1 {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.questions {
+  margin-bottom: 184px;
+}
+
+.questions h6 {
+  border-bottom: 1px solid #3f3b3b;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+  padding-bottom: 32px;
+  color: #ffffff;
+}
+.questions details {
+  color: #ffffff;
+}
+
+.questions summary {
+  text-decoration: none;
+  list-style: none;
+  padding-block: 23px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  border-bottom: 1px solid #3f3b3b;
+}
+
+.questions p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  padding-right: 361px;
+}
+
+details[open] > summary {
+  border: none;
+}
+
+details[open] > p {
+  border-bottom: 1px solid #3f3b3b;
+  padding-bottom: 24px;
+}
+
+.get-started {
+  background: #121212;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.get-started-text {
+  max-width: 426px;
+  align-self: center;
+  margin-left: 96px;
+}
+
+.get-started img {
+  margin-top: 36px;
+  margin-right: 61.9px;
+}
+.footer {
+  padding-inline: 165px;
+  display: flex;
+  background: #121212;
+  padding-block: 72px;
+}
+table {
+  width: 100%;
+}
+th {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+td {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #807e7e;
+}
+
+.never-miss-an-update {
+  width: 354px;
+}
+
+.never-miss-an-update h6{
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: right;
+color: #ffffff;
+}
+
+ .input-group {
+  display: flex;
+  height: 48px;
+  margin-top: 24px;
+}
+
+.input-group a {
+  background-color: #0D6EFD;
+  padding-inline: 22px;
+  align-content: center;
+  border-radius: 0px, 2px, 2px, 0px;
+}
+
+input {
+  width: 290px;
+  background-color: #212121;
+  border: none;
+  border-radius: 3px;
+  padding-left: 16px;
+}
+
+.float-l {
+  float:left;
+}
+.float-r {
+  float:right;
+}
+
+.end-of-footer {
+  border-top: 1px solid #3F3B3B;
+  padding-inline: 165px;
+  display: flex;
+  background: #121212;
+  padding-block: 24px;
+  justify-content: space-between;
+}
+
+.end-of-footer a {
+  padding-right: 197px;
+}
+
+.end-of-footer h6 {
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #807E7E;
+}
+
+.footer-icon-group {
+  display: flex;
+  gap: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
