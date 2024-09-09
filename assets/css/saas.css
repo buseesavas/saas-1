@@ -328,6 +328,11 @@ td {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  
+}
+
+a {
+  text-decoration: none;
   color: #807e7e;
 }
 
